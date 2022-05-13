@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body
+    {
+        font-size:20px;
+		font-style:"bold";
+            text-align:justify;
+            background-color:aquamarine;
+            border-style:inset;
+            border-radius:150px;
+            
+        }
+        marquee
+        {
+            background-color:yellow;
+        }
+        option
+        {
+            font-size:50px;
+        }
+        input
+        {
+            font-size:15px;
+        }
+        img
+        {
+            height:250px;
+            width:250px;
+        }
+        :placeholder-shown{
+            text-align:center;
+        }
+        button
+        {
+            font-size:20px;
+        }
+    
+    </style>
+</head>
+<body>
+    <form action="">
+        <br><br><br><br>
+        <center><a href="index.html"><img src="images/logo.png" style="border-style:inset;"></a></center>
+        <marquee><b>BookNow</b></marquee><br><br>
+        <table align="center">
+            <tr>
+                <td>
+        <label>FirstName:</label>
+        <input type="Text" type="Text" required placeholder="FirstName"></td></tr>
+       <tr><td><label>LastName:</label>
+        <input type="text" type="text" required placeholder="LastName"></td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Age:</label>
+        <input type="number" type="number" required placeholder="Age"></td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label>Phone:</label>
+            <input type="Phonenumber" type="Phonenumber" required placeholder="PhoneNumber"></td></tr>
+          <tr><td><label>GovtIdProof:</label>
+        <input type="file" type="file" required placeholder="Aadhar,Pan.etc.."></td></tr>
+        <tr><td><label>Room Type:</label>
+        <select>
+            <option>none</option>
+            <option>SingleBedRoom</option>
+            <option >DoubleBedRoom</option>
+        </select></td></tr>
+        <table  align="center" bgcolor="lightblue" border="2px">
+            <tr>
+                  <font face="Arial" size="50px"> <td><Strong><marquee bgcolor="yellow">CheckIn</marquee></Strong>
+                       <input type="Date" type="Date">
+                           <font face="Arial" size="50px"> <td><Strong><marquee bgcolor="yellow">CheckOut</marquee></Strong>
+                                <input type="Date" type="Date">
+                            </td></font>
+               </tr>
+       </table><br>
+        <tr><td><center><button href="">Payment</center></button></td></tr>
+    </table>
+</form>
+</body>
+</html>
